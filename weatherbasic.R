@@ -1,4 +1,5 @@
 #This is a simple script for analysing weather data
+#insert a line
 w = read.table('1999_01_19', header=FALSE, comment.char = "#", sep = "\t")
 w
 summary(w)
